@@ -10,4 +10,4 @@ then run `npm install`
 
 then run `npm start`
 
-server starts on [localhost](https://localhost:3000) . 
+server starts on [localhost:3000](https://localhost:3000) . 
