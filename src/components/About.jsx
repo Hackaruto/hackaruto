@@ -14,10 +14,10 @@ const About = () => {
 
       <div>
         <div className="flex container content-between items-center justify-center m-[auto] mt-20 mb-20 flex-col-reverse md:flex-col lg:flex-row">
-          <div className='bg-orange-50 max-w-xs md:max-w-xl lg:max-w-xl lg:max-h-[22rem]'>
-                <p className="text-orange-600 font-bold p-[2rem] pb-[0]">WHO WE ARE</p>
-                <h2 className="text-orange-900 text-2xl font-extrabold p-[2rem] pb-[0rem] pt-[1rem]">Expedita voluptas omnis cupiditate totam eveniet nobis sint iste. Dolores est repellat corrupti reprehenderit.</h2>
-                <p className="text-gray-700 p-[2rem] pb-[3rem]">Quisquam vel ut sint cum eos hic dolores aperiam. Sed deserunt et. Inventore et et dolor consequatur itaque ut voluptate sed et. Magnam nam ipsum tenetur suscipit voluptatum nam et est corrupti.</p>
+          <div className='bg-orange-50 max-w-xs md:max-w-xl lg:max-w-xl lg:max-h-[23rem]'>
+                <p className="text-orange-600 font-bold p-[1.7rem] pb-[0]">WHO WE ARE</p>
+                <h2 className="text-orange-900 text-2xl font-extrabold p-[1.7rem] pb-[0rem] pt-[1rem]">Hackaruto is an open-source platform club build for all the coding enthusiasts around the world who are searching to learn the best coding practices and bring out some mind blowing ideas with their projects</h2>
+                <p className="text-gray-700 p-[1.7rem] pb-[1rem]">We are a young and thriving community run by students based in India. Our community is supported by Hackclub and various other awesome student communities. We conduct and attend Workshops, Events, Hackathons and other fun Community meetups.</p>
           </div>
           <div>
             <img src={about} alt="" className="max-w-xs md:max-w-xl"/>
@@ -25,109 +25,6 @@ const About = () => {
       </div>
       </div>
 
-
-      <div className="grid  grid-cols-1 md:grid-cols-3 lg:grid-cols-3 justify-items-center m-[auto] gap-[1rem] mt-[2rem] md:mt-[5rem] lg:m-[6rem] mb-[4rem]">
-        <div className="bg-gray-200 max-w-xs text-center rounded-[1.5rem] border-b-4 border-box border-gray-200 ">
-          <div className="m-[auto] flex items-center justify-center max-w-[4rem]
-                   pt-10 pb-5 mt-5">
-            <div className="p-2 bg-orange-500 rounded-xl">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="icon icon-tabler icon-tabler-trophy"
-                width="44"
-                height="44"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="#ffffff"
-                fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <line x1="8" y1="21" x2="16" y2="21" />
-                <line x1="12" y1="17" x2="12" y2="21" />
-                <line x1="7" y1="4" x2="17" y2="4" />
-                <path d="M17 4v8a5 5 0 0 1 -10 0v-8" />
-                <circle cx="5" cy="9" r="2" />
-                <circle cx="19" cy="9" r="2" />
-              </svg>
-            </div>
-          </div>
-          <h3 className="text-2xl font-extrabold">Find clients</h3>
-          <p className="pt-5 pb-10 pl-5 pr-5">
-            Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-            lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat.
-          </p>
-        </div>
-        <div className="bg-gray-200 max-w-xs text-center rounded-[1.5rem]">
-          <div
-            className=" m-[auto] flex items-center justify-center max-w-[4rem]
-                   pt-10 pb-5 mt-5"
-          >
-            <div className="p-2 bg-orange-500 rounded-xl">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="icon icon-tabler icon-tabler-trophy"
-                width="44"
-                height="44"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="#ffffff"
-                fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <line x1="8" y1="21" x2="16" y2="21" />
-                <line x1="12" y1="17" x2="12" y2="21" />
-                <line x1="7" y1="4" x2="17" y2="4" />
-                <path d="M17 4v8a5 5 0 0 1 -10 0v-8" />
-                <circle cx="5" cy="9" r="2" />
-                <circle cx="19" cy="9" r="2" />
-              </svg>
-            </div>
-          </div>
-          <h3 className="text-2xl font-extrabold">Find clients</h3>
-          <p className="pt-5 pb-10 pl-5 pr-5">
-            Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-            lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat.
-          </p>
-        </div>
-        <div className="bg-gray-200 max-w-xs text-center rounded-[1.5rem]">
-          <div
-            className=" m-[auto] flex items-center justify-center max-w-[4rem]
-                   pt-10 pb-5 mt-5"
-          >
-            <div className="p-2 bg-orange-500 rounded-xl">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="icon icon-tabler icon-tabler-trophy"
-                width="44"
-                height="44"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="#ffffff"
-                fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <line x1="8" y1="21" x2="16" y2="21" />
-                <line x1="12" y1="17" x2="12" y2="21" />
-                <line x1="7" y1="4" x2="17" y2="4" />
-                <path d="M17 4v8a5 5 0 0 1 -10 0v-8" />
-                <circle cx="5" cy="9" r="2" />
-                <circle cx="19" cy="9" r="2" />
-              </svg>
-            </div>
-          </div>
-          <h3 className="text-2xl font-extrabold">Find clients</h3>
-          <p className="pt-5 pb-10 pl-5 pr-5">
-            Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-            lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat.
-          </p>
-        </div>
-      </div>
 
       <h1 className="text-center text-[#000] font-extrabold text-4xl">
         Our Vision
@@ -142,7 +39,7 @@ const About = () => {
               </div>
               <div className="max-w-md mt-[2rem] md:max-w-md lg:max-w-lg">
                    <h2 className="text-2xl md:text-xl font-extrabold pl-10 pr-10">
-                       <span className="text-orange-600 text-3xl  md:text-xl">“</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis sequi ratione cupiditate<span className="text-orange-600 text-2xl md:text-xl">iste dolorum molestias</span> itaque! Quod optio itaque numquam, neque ea obcaecati quia illum enim est possimus <span className="text-orange-600 text-2xl md:text-xl">iste dolorum molestias</span> vero quam, vitae voluptas alias laudantium provident, et beatae cumque ipsa libero. Quos, similique optio! Iusto rerum <span className="text-orange-600 text-2xl md:text-xl">iste dolorum molestias</span>molestiae animi unde quam aperiam! Lorem ipsum dolor Lorem ipsum dolor sit amet. <span className="text-orange-600 text-3xl md:text-xl"> ”</span>
+                       <span className="text-orange-600 text-3xl  md:text-xl">“</span> Hackaruto is an open source community run by awesome students from the community and our vision is to build a strong community for prospective<span className="text-orange-600 text-3xl md:text-xl"> attendees and mentors</span> that provide wings to the careers of the coders, and also provide them an awesome platform to share and cultivate their ideas. We help each other with our doubts and also run <span className="text-orange-600 text-2xl md:text-xl">community calls, exciting sessions</span> and much more. We want to provide everyone with <span className="text-orange-600 text-2xl md:text-xl">well-structured and concise codes of various projects</span> and help everyone in their coding journey. <span className="text-orange-600 text-3xl md:text-xl"> ”</span>
                    </h2>
 
                 
@@ -150,26 +47,8 @@ const About = () => {
       </div>
 
       <div className="flex flex-col items-center justify-center">
-           <div className="grid lg:grid-cols-4 md:grid-cols-2 lg:max-w-[80%] m-[auto] mt-20 mb-20">
-             <div className="flex rounded-2xl p-8 m-5 shadow-md items-center">
-                   <div>
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mood-smile" width="55" height="55" viewBox="0 0 24 24" stroke-width="1.5" stroke="#6f32be" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                        <circle cx="12" cy="12" r="9" />
-                        <line x1="9" y1="10" x2="9.01" y2="10" />
-                        <line x1="15" y1="10" x2="15.01" y2="10" />
-                        <path d="M9.5 15a3.5 3.5 0 0 0 5 0" />
-                      </svg>
-                   </div>
-                   <div className="pl-5">
-                     <h1 className="text-orange-500 text-3xl font-bold">
-                         232
-                     </h1>
-                     <p>Happy Clients</p>
-                   </div>
-             </div>
-
-              <div className="flex rounded-2xl p-8 m-5 shadow-md items-center">
+           <div className="grid lg:grid-cols-3 md:grid-cols-2 lg:max-w-[80%] m-[auto] mt-20 mb-20">
+                <div className="flex rounded-2xl p-8 m-5 shadow-md items-center">
                    <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-file-digit" width="55" height="55" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00b341" fill="none" stroke-linecap="round" stroke-linejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -181,7 +60,7 @@ const About = () => {
                    </div>
                    <div className="pl-5">
                      <h1 className="text-orange-500 text-3xl font-bold">
-                         521
+                         1
                      </h1>
                      <p>Projects</p>
                    </div>
@@ -203,7 +82,7 @@ const About = () => {
                    </div>
                    <div className="pl-5">
                      <h1 className="text-orange-500 text-3xl font-bold">
-                         17+
+                         2+
                      </h1>
                      <p>Webinars and Workshops</p>
                    </div>
@@ -220,7 +99,7 @@ const About = () => {
                    </div>
                    <div className="pl-5">
                      <h1 className="text-orange-500 text-3xl font-bold">
-                         10
+                         7
                      </h1>
                      <p>Hard Workers</p>
                    </div>
@@ -242,7 +121,7 @@ const About = () => {
                             </svg>
                        </div>
                        <h1 className=" text-2xl font-bold p-2 pl-5">Sessions</h1>
-                       <p className="text-gray-500 p-2 pl-5 pb-8">Learn and teach and the baton is passed Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, ipsam?</p>
+                       <p className="text-gray-500 p-2 pl-5 pb-8">We conduct a lot of awesome sesions for the community to get everyone familiar with differnent aspects of technologies.</p>
                </div>
 
                <div className="max-w-sm md:max-w-lg lg:max-w-sm bg-orange-100 rounded-3xl">
@@ -253,7 +132,7 @@ const About = () => {
                             </svg>
                        </div>
                        <h1 className=" text-2xl font-bold p-2 pl-5">Flagship Events</h1>
-                       <p className="text-gray-500 p-2 pl-5 pb-8">Hackaruto is what put us on the map and define the way Webwiz moves forward. Lorem ipsum dolor sit amet.</p>
+                       <p className="text-gray-500 p-2 pl-5 pb-8">Hackaruto is an open source platform that focuses on conducting many flagship events ranging from Open source events to Competitive Programming contests.</p>
                </div>
 
                <div className="max-w-sm md:max-w-lg lg:max-w-sm bg-green-100 rounded-3xl">
@@ -266,7 +145,7 @@ const About = () => {
                           </svg>
                        </div>
                        <h1 className=" text-2xl font-bold p-2 pl-5">Workshop</h1>
-                       <p id="Projects" className="text-gray-500 p-2 pl-5 pb-8">We believe the best way to learn is through experiencing and we make sure we give you lots of it.</p>
+                       <p id="Projects" className="text-gray-500 p-2 pl-5 pb-8">We believe the best way to learn is through experiencing and we make sure we give you lots of it through our awesome workshops.</p>
                </div>
 
            </div>

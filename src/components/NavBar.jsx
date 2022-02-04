@@ -37,7 +37,7 @@ const Navbar = () => {
           <a href={"#"+ item} ><NavBarItem key={item + index} title={item} /></a>
         ))}
         <li className="border-2 border-orange-500 py-1.5 px-7 mx-4 rounded-xl cursor-pointer text-orange-500 hover:bg-orange-500 hover:text-white hover:border-white">
-          Register
+          Join Us
         </li>
       </ul>
       <div className="flex relative">
