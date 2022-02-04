@@ -2,12 +2,12 @@
 
 How to contribute?
 
-first fork the repo 
+- first fork the repo 
 
-then in your terminal write `git clone <your url>`
+- then in your terminal write `git clone <your url>`
 
-then run `npm install`
+- then run `npm install`
 
-then run `npm start`
+- then run `npm run dev`
 
-server starts on [localhost:3000](https://localhost:3000) . 
+- server starts on [localhost:3000](https://localhost:3000) . 
