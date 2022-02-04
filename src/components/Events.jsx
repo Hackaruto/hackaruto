@@ -11,54 +11,23 @@ const Events = () => {
             Upcoming Events
         </h1>
 
-        <div className='grid lg:grid-cols-3 m-[auto]'>
-               <div className='max-w-xs m-12'>
-                   <img src={project} alt="" className='rounded-3xl' />
-                   <h2 className='pt-8 pb-5 font-bold text-xl pl-0'>
-                       Hands-on-IoT
-                   </h2>
-                   <p className='text-gray-600 pb-3 text-sm'>
-                       How systematic ASO helped this meditation app reach over 6 Million users
-                   </p>
-                    <div className='flex items-center justify-between mt-3'>
-                        <p className='text-gray-400 text-sm'>Google Meet | 20.04.2022</p>
-                       <div className='text-gray-500 flex'>
-                        <BiLink className='text-3xl cursor-pointer' />
-                    </div>
-                    </div>
-               </div>
-
-               <div className='max-w-xs m-12'>
+        <div className='grid lg:grid-cols-1 m-[auto]'>
+                <div className='max-w-xs m-12'>
                    <img src={project} alt="" className='rounded-3xl' />
                    <h2 className='pt-8 pb-5 font-bold text-xl pl-0'>
                       Deep dive into Web3 
                    </h2>
                    <p className='text-gray-600 pb-3 text-sm'>
-                       How systematic ASO helped this meditation app reach over 6 Million users
+                       Learn about the basics of Web3
                    </p>
                     <div className='flex items-center justify-between mt-3'>
-                        <p className='text-gray-400 text-sm'>Google Meet | 20.04.2022</p>
+                        <p className='text-gray-400 text-sm'>Zoom | 12.02.2022</p>
                        <div className='text-gray-500 flex'>
                         <BiLink className='text-3xl cursor-pointer' />
                     </div>
                     </div>
                </div>
 
-               <div className='max-w-xs m-12'>
-                   <img src={project} alt="" className='rounded-3xl' />
-                   <h2 className='pt-8 pb-5 font-bold text-xl pl-0'>
-                       Designathon 2022
-                   </h2>
-                   <p className='text-gray-600 pb-3 text-sm'>
-                       How systematic ASO helped this meditation app reach over 6 Million users
-                   </p>
-                    <div className='flex items-center justify-between mt-3'>
-                        <p className='text-gray-400 text-sm'>Google Meet | 20.04.2022</p>
-                       <div id='Team' className='text-gray-500 flex'>
-                        <BiLink className='text-3xl cursor-pointer' />
-                    </div>
-                    </div>
-               </div>
         </div>
         </div>
     )

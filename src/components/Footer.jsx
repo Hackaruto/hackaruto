@@ -15,7 +15,7 @@ const Footer = () => {
                      <img src={logo} alt="" className='h-11' />
                 </div>
                 <h3>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero optio iste corporis! Porro dignissimos in impedit amet architecto, rerum voluptatem?
+                    
                 </h3>
                   <div className='flex'>
                 <AiOutlineGithub className='text-4xl m-3 ml-0 bg-gray-200 rounded-[50%] p-1 text-gray-600 cursor-pointer'/>
@@ -49,11 +49,9 @@ const Footer = () => {
             </div>
             <hr />
             <div className='flex flex-col  items-center justify-between md:flex-row'>
-                <h1 className='font-bold  p-3 md:ml-12'>
-                  © Copyright Hackaruto 2022
-                </h1>
+                
                 <h1 className=' p-3 font-bold pt-0 md:mr-12'>
-                    Designed and Developed by <a href="" className='text-blue-600'>Sudhanshu</a>
+                    Designed and Developed by <a href="" className='text-blue-600'>Hackaruto team</a>
                 </h1>
             </div>
         </div>
