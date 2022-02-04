@@ -12,7 +12,7 @@ const Projects = () => {
             Our Projects
         </h1>
 
-        <div className='grid lg:grid-cols-1 m-[auto]'>
+        <div className='grid lg:grid-cols-2 md:grid-cols-2 m-[auto]'>
                <div className='max-w-xs m-12'>
                    <img src={project} alt="" className='rounded-3xl' />
                    <h2 className='pt-8 pb-5 font-bold text-xl pl-0'>
@@ -25,7 +25,7 @@ const Projects = () => {
                         <p className='text-gray-400 text-sm'>Hackaruto | 04 Feb 2022</p>
                        <div className='text-gray-500 flex'>
                         <a href="https://github.com/Hackaruto/hackaruto"><AiOutlineGithub className='text-3xl mr-3 cursor-pointer'/></a>
-                       <a href="https://romantic-dubinsky-9cbaf1.netlify.app"><BiLink className='text-3xl cursor-pointer' /></a> 
+                       <a href="https://hackaruto.netlify.app/"><BiLink className='text-3xl cursor-pointer' /></a> 
                     </div>
                     </div>
                </div>
