@@ -1,5 +1,6 @@
 import './Main.css'
-import project from './../../resources/project.png'
+import project from './../../resources/project1.png'
+import project2 from './../../resources/helping-hands.png'
 import { AiOutlineGithub } from 'react-icons/ai';
 import {BiLink} from 'react-icons/bi';
 
@@ -18,13 +19,29 @@ const Projects = () => {
                        Hackaruto Website
                    </h2>
                    <p className='text-gray-600 pb-3 text-sm'>
-                       How systematic ASO helped this meditation app reach over 6 Million users
+                       Official website of Hackaruto Club created by our talented and hardworking team members.
                    </p>
                     <div className='flex items-center justify-between mt-3'>
-                        <p className='text-gray-400 text-sm'>Hackaruto</p>
+                        <p className='text-gray-400 text-sm'>Hackaruto | 04 Feb 2022</p>
                        <div className='text-gray-500 flex'>
-                        <AiOutlineGithub className='text-3xl mr-3 cursor-pointer'/>
-                        <BiLink className='text-3xl cursor-pointer' />
+                        <a href="https://github.com/Hackaruto/hackaruto"><AiOutlineGithub className='text-3xl mr-3 cursor-pointer'/></a>
+                       <a href="https://romantic-dubinsky-9cbaf1.netlify.app"><BiLink className='text-3xl cursor-pointer' /></a> 
+                    </div>
+                    </div>
+               </div>
+               <div className='max-w-xs m-12'>
+                   <img src={project2} alt="" className='rounded-3xl' />
+                   <h2 className='pt-8 pb-5 font-bold text-xl pl-0'>
+                       Helping Hands
+                   </h2>
+                   <p className='text-gray-600 pb-3 text-sm'>
+                       A Website that contains tge study materials and resources for the freshers' at NIT, Patna.
+                   </p>
+                    <div className='flex items-center justify-between mt-3'>
+                        <p className='text-gray-400 text-sm'>Hackaruto | 10 Jan 2022</p>
+                       <div className='text-gray-500 flex'>
+                        <a href="https://github.com/W-O-F/helping-hands"><AiOutlineGithub className='text-3xl mr-3 cursor-pointer'/></a>
+                        <a href="https://helping-hands-nitp.herokuapp.com/" target="_blank"><BiLink className='text-3xl cursor-pointer' /></a>
                     </div>
                     </div>
                </div>

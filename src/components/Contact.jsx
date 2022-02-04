@@ -13,15 +13,15 @@ const Contact = () => {
             <div className='flex flex-col justify-evenly md:gap-[5rem] mt-12 md:flex-row'>
             
                 <div className='bg-orange-50 max-w-lg rounded-xl w-[20rem] text-center mt-5'>
-                    <div className='p-5 pb-5'>
+                    <div className='m-5 flex flex-col justify-evenly items-center'>
                         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff4500" fill="none" stroke-linecap="round" stroke-linejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                         <rect x="3" y="5" width="18" height="14" rx="2" />
                         <polyline points="3 7 12 13 21 7" />
                         </svg>
                     </div>
-                    <h2 className='text-2=xl font-bold text-orange-900 pl-5'>Mail Us</h2>
-                    <h3 className='text-gray-500 pl-5 pb-3'>hackarutoclub@gmail.com</h3>
+                    <h2 className='text-2=xl font-bold text-orange-900 '>Mail Us</h2>
+                    <a href="mailto:hackarutoclub@gmail.com"><h3 className='text-gray-500 mb-4'>hackarutoclub@gmail.com</h3></a>
                 </div>
             </div>
 

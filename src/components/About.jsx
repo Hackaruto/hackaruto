@@ -39,7 +39,7 @@ const About = () => {
               </div>
               <div className="max-w-md mt-[2rem] md:max-w-md lg:max-w-lg">
                    <h2 className="text-2xl md:text-xl font-extrabold pl-10 pr-10">
-                       <span className="text-orange-600 text-3xl  md:text-xl">“</span> Hackaruto is an open source community run by awesome students from the community and our vision is to build a strong community for prospective<span className="text-orange-600 text-3xl md:text-xl"> attendees and mentors</span> that provide wings to the careers of the coders, and also provide them an awesome platform to share and cultivate their ideas. We help each other with our doubts and also run <span className="text-orange-600 text-2xl md:text-xl">community calls, exciting sessions</span> and much more. We want to provide everyone with <span className="text-orange-600 text-2xl md:text-xl">well-structured and concise codes of various projects</span> and help everyone in their coding journey. <span className="text-orange-600 text-3xl md:text-xl"> ”</span>
+                       <span className="text-orange-600 text-3xl  md:text-xl">“</span> Hackaruto is an open source community run by awesome students from the community and our vision is to build a strong community for prospective<span className="text-orange-600 text-2xl md:text-xl"> attendees and mentors</span> that provide wings to the careers of the coders, and also provide them an awesome platform to share and cultivate their ideas. We help each other with our doubts and also run <span className="text-orange-600 text-2xl md:text-xl">community calls, exciting sessions</span> and much more. We want to provide everyone with <span className="text-orange-600 text-2xl md:text-xl">well-structured and concise codes of various projects</span> and help everyone in their coding journey. <span className="text-orange-600 text-3xl md:text-xl"> ”</span>
                    </h2>
 
                 
@@ -60,7 +60,7 @@ const About = () => {
                    </div>
                    <div className="pl-5">
                      <h1 className="text-orange-500 text-3xl font-bold">
-                         1
+                         2
                      </h1>
                      <p>Projects</p>
                    </div>
@@ -101,7 +101,7 @@ const About = () => {
                      <h1 className="text-orange-500 text-3xl font-bold">
                          7
                      </h1>
-                     <p>Hard Workers</p>
+                     <p>Hard working members</p>
                    </div>
              </div>
 
