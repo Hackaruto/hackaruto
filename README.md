@@ -1,4 +1,4 @@
-# hackaruto
+<h1 align="center"> Hackaruto </h1> <br>
 
 How to contribute?
 
