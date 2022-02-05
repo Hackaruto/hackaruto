@@ -31,41 +31,41 @@ const data = [
         imgUrl:pratik,
         name:"Pratik Anand",
         designation:"Founder & Tech lead",
-        github:"https://github.com/SudhansuuRanjan",
-        twitter:"https://twitter.com/sushanss_u",
-        linkedin:"https://linkedin.com/in/sudhanshu-ranjan-a1779b202"
+        github:"https://github.com/pratik8696",
+        twitter:"https://twitter.com/mepratikanand",
+        linkedin:"https://www.linkedin.com/in/pratik-anand-/"
     },
     {
         imgUrl:firdaus,
         name:"Firdaus Jawed",
         designation:"Operations lead",
-        github:"https://github.com/SudhansuuRanjan",
-        twitter:"https://twitter.com/sushanss_u",
-        linkedin:"https://linkedin.com/in/sudhanshu-ranjan-a1779b202"
+        github:"https://github.com/FirdausJawed",
+        twitter:"https://twitter.com/jawedfirdaus01",
+        linkedin:"https://www.linkedin.com/in/firdaus-jawed/"
     },
     {
         imgUrl:rishabh,
         name:"Rishabh Prakash",
         designation:"Domain Lead",
-        github:"https://github.com/SudhansuuRanjan",
-        twitter:"https://twitter.com/sushanss_u",
-        linkedin:"https://linkedin.com/in/sudhanshu-ranjan-a1779b202"
+        github:"https://github.com/Rishabh-25-code",
+        twitter:"",
+        linkedin:"https://www.linkedin.com/in/rishabh-prakash-5b8299203/"
     },
     {
         imgUrl:avinash,
         name:"Avinash Kumar",
         designation:"Operations Lead",
-        github:"https://github.com/SudhansuuRanjan",
-        twitter:"https://twitter.com/sushanss_u",
-        linkedin:"https://linkedin.com/in/sudhanshu-ranjan-a1779b202"
+        github:"https://github.com/errorcode-4o4",
+        twitter:"",
+        linkedin:"https://www.linkedin.com/in/avinash-singh-38bb01203/"
     },
     {
         imgUrl:raj,
         name:"Raj More",
         designation:"Design Lead",
-        github:"https://github.com/SudhansuuRanjan",
-        twitter:"https://twitter.com/sushanss_u",
-        linkedin:"https://linkedin.com/in/sudhanshu-ranjan-a1779b202"
+        github:"https://github.com/Raj82862",
+        twitter:"https://twitter.com/RajMore06",
+        linkedin:"https://www.linkedin.com/in/raj-more-50b543202/"
     },
     {
         imgUrl:priyanshu,
