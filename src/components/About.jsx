@@ -99,7 +99,7 @@ const About = () => {
                    </div>
                    <div className="pl-5">
                      <h1 className="text-orange-500 text-3xl font-bold">
-                         7
+                         8
                      </h1>
                      <p>Hard working members</p>
                    </div>
