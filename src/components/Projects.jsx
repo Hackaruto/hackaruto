@@ -19,7 +19,7 @@ const Projects = () => {
                        Hackaruto Website
                    </h2>
                    <p className='text-gray-600 pb-3 text-sm'>
-                       Official website of Hackaruto Club created by our talented and hardworking team members.
+                       Official website of Hackaruto Club created by our dedicated and hardworking team members.
                    </p>
                     <div className='flex items-center justify-between mt-3'>
                         <p className='text-gray-400 text-sm'>Hackaruto | 04 Feb 2022</p>
@@ -35,7 +35,7 @@ const Projects = () => {
                        Helping Hands
                    </h2>
                    <p className='text-gray-600 pb-3 text-sm'>
-                       A Website that contains tge study materials and resources for the freshers' at NIT, Patna.
+                       A Website that contains the study materials and resources for the freshers' at NIT, Patna.
                    </p>
                     <div className='flex items-center justify-between mt-3'>
                         <p className='text-gray-400 text-sm'>Hackaruto | 10 Jan 2022</p>
