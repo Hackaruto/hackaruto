@@ -50,9 +50,13 @@ const Footer = () => {
             <hr />
             <div className='flex flex-col  items-center justify-between md:flex-row'>
                 
-                <h1 className=' p-3 font-bold pt-0 md:mr-12'>
-                    Designed and Developed by <a href="" className='text-blue-600'>Hackaruto team</a>
+                <h1 className='font-bold  p-3 md:ml-12'>
+                  © Copyright Hackaruto 2022
                 </h1>
+                <h1 className=' p-3 font-bold  md:mr-12'>
+                    Designed and Developed by <a href="#Team" className='text-blue-600'>Hackaruto Team</a>
+                </h1>
+
             </div>
         </div>
     )
