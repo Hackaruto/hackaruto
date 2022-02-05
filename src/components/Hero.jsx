@@ -9,7 +9,7 @@ import homeimg from '../../resources/pair_programming.svg'
 const Hero = () => {
 
     return (
-        <div id="#Home" className='hero flex flex-col items-center justify-center lg:justify-evenly mt-[8rem] lg:ml-[3rem] lg:flex-row z-3'>
+        <div id="Home" className='hero flex flex-col items-center justify-center lg:justify-evenly mt-[8rem] lg:ml-[3rem] lg:flex-row z-3'>
            <div data-aos="fade-up" className="hero-left max-w-sm z-3" >
                <h1 className='text-4xl lg:text-5xl text-black font-bold '>
                    <span className='text-black flex'>
