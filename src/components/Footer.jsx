@@ -30,19 +30,19 @@ const Footer = () => {
                    <hr/>
                    <ul>
                        <li>
-                           <a href="#" className='text-orange-500 m-1 text-lg'>Home</a>
+                           <a href="#Home" className='text-orange-500 m-1 text-lg'>Home</a>
                        </li>
                        <li>
-                           <a href="#" className='text-orange-500 m-1 text-lg'>About</a>
+                           <a href="#About" className='text-orange-500 m-1 text-lg'>About</a>
                        </li>
                        <li>
-                           <a href="#" className='text-orange-500 m-1 text-lg'>Projects</a>
+                           <a href="#Projects" className='text-orange-500 m-1 text-lg'>Projects</a>
                        </li>
                        <li>
-                           <a href="#" className='text-orange-500 m-1 text-lg'>Events</a>
+                           <a href="#Events" className='text-orange-500 m-1 text-lg'>Events</a>
                        </li>
                        <li>
-                           <a href="#" className='text-orange-500 m-1 text-lg'>Team</a>
+                           <a href="#Team" className='text-orange-500 m-1 text-lg'>Team</a>
                        </li>
                    </ul>
                </div>
