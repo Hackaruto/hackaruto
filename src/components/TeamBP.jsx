@@ -7,7 +7,7 @@ import { TiSocialLinkedin } from 'react-icons/ti';
 const TeamBP = ({imgSrc,name,designation,github,twitter,linkedin}) => {
     return (
         <div className='m-8'>
-            <img src={imgSrc} alt=""  className='rounded-3xl h-[20rem] w-[16rem]'/>
+            <img src={imgSrc} alt=""  className='rounded-3xl h-[18rem] w-[16rem]'/>
             <h1 className='font-bold text-lg mt-4 text-center'>{name}</h1>
             <h3 className='text-md mt-1 text-sky-500 text-center'>{designation}</h3>
             <div className='flex justify-center'>
