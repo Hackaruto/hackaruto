@@ -28,7 +28,7 @@ const Navbar = () => {
   window.addEventListener('scroll', changeNavbarColor);
 
     return (
-        <nav className={colorChange?"w-full flex md:justify-center justify-between items-center p-4 fixed top-0 z-999 bg-white drop-shadow":"w-full flex md:justify-center justify-between items-center p-4 fixed top-0 z-10000 bg-white"}>
+        <nav className={colorChange?"w-full flex md:justify-center justify-between items-center p-4 fixed top-0 z-1 bg-white drop-shadow":"w-full flex md:justify-center justify-between items-center p-4 fixed top-0 z-10000 bg-white z-1"}>
       <div className="md:flex-[0.5] flex-initial justify-center items-center">
         <a href="#"><img src={logo} alt="logo" className="h-10 cursor-pointer" /></a>
       </div>

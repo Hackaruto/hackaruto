@@ -19,9 +19,9 @@ const Footer = () => {
                 </h3>
                   <div className='flex'>
                 <a href="https://github.com/Hackaruto"><AiOutlineGithub className='text-4xl m-3 ml-0 bg-gray-200 rounded-[50%] p-1 text-gray-600 cursor-pointer'/></a>
-                <AiOutlineInstagram className='text-4xl m-3 ml-0 bg-gray-200 rounded-[50%] p-1 text-gray-600 cursor-pointer'/>
-                <TiSocialTwitter className='text-4xl m-3 ml-0 bg-gray-200 rounded-[50%] p-1 text-gray-600 cursor-pointer'/>
-                <TiSocialLinkedin className='text-4xl m-3 ml-0 bg-gray-200 rounded-[50%] p-1 text-gray-600 cursor-pointer'/>
+                <a href="https://www.instagram.com/hackaruto/" target="_blank" rel="noopener noreferrer"><AiOutlineInstagram className='text-4xl m-3 ml-0 bg-gray-200 rounded-[50%] p-1 text-gray-600 cursor-pointer'/></a>
+                <a href="https://twitter.com/hackaruto" target="_blank" rel="noopener noreferrer"><TiSocialTwitter className='text-4xl m-3 ml-0 bg-gray-200 rounded-[50%] p-1 text-gray-600 cursor-pointer'/></a>
+                <a href="" target="_blank" rel="noopener noreferrer"><TiSocialLinkedin className='text-4xl m-3 ml-0 bg-gray-200 rounded-[50%] p-1 text-gray-600 cursor-pointer'/></a>
                   </div>
                </div>
 
