@@ -30,15 +30,17 @@ const Navbar = () => {
     return (
         <nav className={colorChange?"w-full flex md:justify-center justify-between items-center p-4 fixed top-0 z-1 bg-white drop-shadow":"w-full flex md:justify-center justify-between items-center p-4 fixed top-0 z-10000 bg-white z-1"}>
       <div className="md:flex-[0.5] flex-initial justify-center items-center">
-        <a href="#"><img src={logo} alt="logo" className="h-10 cursor-pointer" /></a>
+        <a href=""><img src={logo} alt="logo" className="h-10 cursor-pointer" /></a>
       </div>
       <ul className="text-black md:flex hidden list-none flex-row justify-between items-center flex-initial">
         {["Home", "About", "Projects","Events", "Team"].map((item, index) => (
           <a href={"#"+ item} ><NavBarItem key={item + index} title={item} /></a>
         ))}
-        <li className="border-2 border-orange-500 py-1.5 px-7 mx-4 rounded-xl cursor-pointer text-orange-500 hover:bg-orange-500 hover:text-white hover:border-white">
+        <a href="https://linktr.ee/Hackaruto" target="_blank" rel="noopener noreferrer">
+          <li className="border-2 border-orange-500 py-1.5 px-7 mx-4 rounded-xl cursor-pointer text-orange-500 hover:bg-orange-500 hover:text-white hover:border-white">
           Join Us
         </li>
+        </a>
       </ul>
       <div className="flex relative">
         {!toggleMenu && (

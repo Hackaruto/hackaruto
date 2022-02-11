@@ -33,7 +33,9 @@ const Contact = () => {
                     Join here to become a part of Hackaruto.
                 </p>
                 
-                <button className='pt-2 pb-2 pl-6 pr-6 bg-orange-500 rounded-xl text-white m-8'>Register</button>
+                <a href="https://linktr.ee/Hackaruto" target="_blank" rel="noopener noreferrer">
+                    <button className='pt-2 pb-2 pl-6 pr-6 bg-orange-500 rounded-xl text-white m-8'>Register</button>
+                </a>
 
             </div>
             

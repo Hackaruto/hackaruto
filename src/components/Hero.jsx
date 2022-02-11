@@ -24,7 +24,9 @@ const Hero = () => {
                </p>
                <div className='flex flex-col lg:flex-row my-5'>
                    
-                   <button className='py-2 px-4 rounded-xl ml-0 mr-3 my-5 lg:my-0 text-orange-500 hover:bg-orange-500 hover:text-white border-2  border-orange-500 hover:border-white'>Join us</button>
+                   <a href="https://linktr.ee/Hackaruto" target="_blank" rel="noopener noreferrer">
+                       <button className='py-2 px-4 rounded-xl ml-0 mr-3 my-5 lg:my-0 text-orange-500 hover:bg-orange-500 hover:text-white border-2  border-orange-500 hover:border-white'>Join us</button>
+                   </a>
                </div>
                
            </div>
