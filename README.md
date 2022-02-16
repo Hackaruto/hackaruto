@@ -5,11 +5,11 @@ Hackaruto is an open-source platform club build for all the coding enthusiasts a
 ![ss](hackarutosite.png)
 
 
-# Wants to Contribute to this project:
+# Want to Contribute to this project:
 
 
 
-## Prerequisites required 👨💻:
+## Prerequisites 👨💻:
 
 ### Install Node JS
 Get reference from https://nodejs.org/en/ to install nodejs.
