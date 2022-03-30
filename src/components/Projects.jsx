@@ -1,6 +1,7 @@
 import './Main.css'
 import project from './../../resources/project1.png'
 import project2 from './../../resources/helping-hands.png'
+import project3 from './../../resources/linkfree.png'
 import { AiOutlineGithub } from 'react-icons/ai';
 import {BiLink} from 'react-icons/bi';
 
@@ -42,6 +43,23 @@ const Projects = () => {
                        <div className='text-gray-500 flex'>
                         <a href="https://github.com/W-O-F/helping-hands"><AiOutlineGithub className='text-3xl mr-3 cursor-pointer'/></a>
                         <a href="https://helping-hands-nitp.herokuapp.com/" target="_blank"><BiLink className='text-3xl cursor-pointer' /></a>
+                    </div>
+                    </div>
+               </div>
+
+               <div className='max-w-xs m-12'>
+                   <img src={project3} alt="" className='rounded-3xl' />
+                   <h2 className='pt-8 pb-5 font-bold text-xl pl-0'>
+                       Lincfree
+                   </h2>
+                   <p className='text-gray-600 pb-3 text-sm'>
+                       Linkfree is a web-app that can generate a linktree for all your links.
+                   </p>
+                    <div className='flex items-center justify-between mt-3'>
+                        <p className='text-gray-400 text-sm'>Hackaruto | 10 March 2022</p>
+                       <div className='text-gray-500 flex'>
+                        <a href="https://github.com/Hackaruto/linktree-clone"><AiOutlineGithub className='text-3xl mr-3 cursor-pointer'/></a>
+                        <a href="https://lincfree.herokuapp.com/" target="_blank"><BiLink className='text-3xl cursor-pointer' /></a>
                     </div>
                     </div>
                </div>
