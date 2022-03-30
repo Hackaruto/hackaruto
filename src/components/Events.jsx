@@ -21,9 +21,9 @@ const Events = () => {
       title: "Intro to Web3",
       description: "Introduction to Web 3.0 & Blockchain.",
       platform: "Zoom",
-      date: "12.02.2022",
-      time: "08:00 p.m",
-      eventLink: "https://ahack.link/webinar-intro-to-web3",
+      date: "03.04.2022",
+      time: "09:00 p.m",
+      eventLink: "https://forms.gle/nQjeizWyMS7HJX8JA",
     },
     {
       img: session3,
@@ -37,7 +37,7 @@ const Events = () => {
   ];
   return (
     <div className="mt-10 flex flex-col">
-      <h3 className="text-center text-[#0094FF] pt-10">Events</h3>
+      <h3 className="text-center text-[rgb(0,148,255)] pt-10">Events</h3>
       <h1 className="text-center text-[#000] font-extrabold text-4xl">
         Upcoming Events
       </h1>
