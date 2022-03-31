@@ -10,9 +10,9 @@ const Events = () => {
     {
       img: session1,
       title: "Meme-Jutsu",
-      description: "A 10 day meme competition on instagram.",
+      description: "A one week meme competition on Web3/blockchain with cash prize of ₹7500 on instagram.",
       platform: "Zoom",
-      date: "2-9 Apr 2021",
+      date: "2-8 Apr 2021",
       time: "",
       eventLink: "https://forms.gle/YKunXEzwnXKf39Tx8",
     },
