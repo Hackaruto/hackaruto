@@ -14,7 +14,7 @@ const Events = () => {
       platform: "Zoom",
       date: "2-9 Apr 2021",
       time: "",
-      eventLink: "",
+      eventLink: "https://forms.gle/YKunXEzwnXKf39Tx8",
     },
     {
       img: session2,
