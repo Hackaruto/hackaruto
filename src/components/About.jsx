@@ -60,7 +60,7 @@ const About = () => {
                    </div>
                    <div className="pl-5">
                      <h1 className="text-orange-500 text-3xl font-bold">
-                         2
+                         3+
                      </h1>
                      <p>Projects</p>
                    </div>
@@ -82,7 +82,7 @@ const About = () => {
                    </div>
                    <div className="pl-5">
                      <h1 className="text-orange-500 text-3xl font-bold">
-                         2+
+                         4+
                      </h1>
                      <p>Webinars and Workshops</p>
                    </div>
@@ -99,7 +99,7 @@ const About = () => {
                    </div>
                    <div className="pl-5">
                      <h1 className="text-orange-500 text-3xl font-bold">
-                         8
+                         8+
                      </h1>
                      <p>Hard working members</p>
                    </div>
